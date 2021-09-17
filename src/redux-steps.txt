@@ -1,19 +1,17 @@
-/* 
+
 1. create a store -> globalised state
 
-2. action -> tells what actions to do  (increment counter)
+2. create actions -> tells what actions to do  (increment counter)
 
-3. reducer -> takes care of action (real actions take place, handles state change)
+3. create a reducer -> takes care of action (real actions take place, handles state change)
 
-4. dispatch ->  dispatch/execute an action
+4. combineReducers in one place to export them to store.
 
 5. wrap app.js inside Provider from react-redux.
 
 6. useSelector is a function help us which state we want to choose inside our component.
 
 7. to perform an action, we use useDispatch();
-
-*/
 
 
 
